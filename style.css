@@ -1,0 +1,51 @@
+ body {
+ background-color: brown; 
+ }
+ .header{
+ background-color: olive;  
+}
+.header__title{
+  font-size: 25px;
+  width: 100%;
+  background-color:  white;
+  height: 35px; 
+  font-style: oblique;
+}
+#header__description{
+  font-weight: bold;  
+}
+.section{
+  background-color:yellow;
+}
+.section__title{
+  position: static;
+  font-size: 15px;
+  width: 100%;
+  background-color:  #3366CC;
+  height: 35px; 
+}
+
+.section__description+.footer__description{
+  font-size: 10px;
+  width: 300%;
+  background-color: maroon;
+  height: 35px; 
+  text-align: center;
+  font-stretch: expanded;
+  margin: 50%; 
+  padding: 30px; 
+  top: 5%;
+  hyphens: none;
+  word-spacing: 10px;
+  }
+
+.footer{
+  background-color:grey;
+}
+
+.footer__title{
+  font-size: 20px;
+  width: 50%;
+  background-color:  #3366CC;
+  height: 35px; 
+}
